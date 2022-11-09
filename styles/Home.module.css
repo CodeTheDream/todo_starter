@@ -1,18 +1,125 @@
-.container {
-  padding: 0 2rem;
+.indexMainDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  
+}
+.indexH1{
+  margin:0;
+}
+/* .indexCardSection{
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  height:200px;
+  background-color: red;
+  
+  
+}
+.span{
+  border: 1px solid #008cba;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  background-color: green;
+  
+
+} */
+.cardSectionIndex{
+
+  width:70%;
+  height:300px;
+  
+
+}
+.cardSection{
+  width: 100%;
+  height:300px;
+  margin:0 20px;
+  
+}
+.cardSection2{
+  width: 100%;
+  height:300px;
+  margin:0 20px; 
+  padding:20px;
+}
+.cardIndex{
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #008cba;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px; 
+  flex-basis: 33.333333%;
+  display:flex;  
+  justify-content: space-between;
 }
 
-.main {
+.cardIndexDiv{
+  display:flex;  
+  flex-wrap: wrap; 
+  align-items: center;
+}
+
+/* .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+} */
+.form{
+  width:300px;
+  height:200px;
+  background-color: #f0f0f0;
+  box-shadow: 2px 10px 0 0;  
+  margin:auto;
 }
 
-.footer {
+.newInput{
+ position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  top:30%;
+
+ 
+}
+.todoInput{
+width:80%;
+height:3rem;
+border:1px solid #008cba;
+border-radius:4px;
+
+  
+}
+.addBtn{
+  width: 4rem;
+  color:#fff;
+  background-color:#008cba;
+  margin-top:10px;
+  border-radius:5px
+}
+.inputDropdown{
+  display: flex;
+  width:1%rem;
+height:3rem;
+border:1px solid #008cba;
+border-radius:4px;
+
+}
+.strikethrough:checked{
+  text-decoration:line-through;
+}
+
+
+
+/* .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
@@ -73,17 +180,7 @@
   max-width: 800px;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
+
 
 .card:hover,
 .card:focus,
@@ -126,4 +223,4 @@
   .logo img {
     filter: invert(1);
   }
-}
+} */
